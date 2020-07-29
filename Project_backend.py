@@ -155,7 +155,9 @@ if len(cols_null)!=0 :
 disease_train.dropna(subset=['prognosis'],axis=0,inplace=True)
 
 #Randomly shuffling the dataset
-disease_train=disease_train.sample(frac=1)      
+disease_train=disease_train.sample(frac=1) 
+
+#No need to standardize
 
 #USING FILTER METHOD
 
