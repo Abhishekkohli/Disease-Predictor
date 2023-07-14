@@ -1,11 +1,11 @@
 # Disease-Predictor
 
-A gui-based disease predictor based on given input of symptoms.
+A GUI-based disease predictor based on given input of symptoms.
 
-Project.py file contains the gui code.
+The project.py file contains the GUI code. It is implemented in Python using the Tkinter module.
 
-Project_backend.py file contains the implementation of Machine Learning concepts to predict disease.
+The Project_backend.py file contains the implementation of Machine Learning concepts to predict the disease based on a given set of inputs as symptoms by the user. Libraries used: Scikit Learn, Pandas, Matplotlib.
 
-Testing.csv file contains testing dataset.
+Testing.csv file contains the testing dataset.
 
 Training.csv file contains the training dataset.
